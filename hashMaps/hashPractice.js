@@ -5,6 +5,7 @@ const middleName = 'DDDDDDD'
 const surname = 'CCCCCC'
 
 
+
 // hash function
 function hash(name, middleName, surname) {
     return name.charAt(0) + middleName.charAt(0) + surname.charAt(0)

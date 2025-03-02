@@ -9,7 +9,7 @@ const surname = 'CCCCCC'
 function hash(name, middleName, surname) {
     return name.charAt(0) + middleName.charAt(0) + surname.charAt(0)
 }
-console.log(hash(name, middleName, surname))
+console.log("hash:", hash(name, middleName, surname))
 
 
 
@@ -24,10 +24,9 @@ function stringToNumber(string) {
     }
     return hashCode      
 }
-function newHash(newName) {
-    return stringToNumber(newName)
-}
-console.log(newHash(newName))
+console.log("newName:", stringToNumber(newName))
+
+
 
 
 
